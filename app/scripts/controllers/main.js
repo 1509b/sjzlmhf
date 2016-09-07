@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the yeomanApp
  */
-angular.module('yeomanApp')
+angular.module('yeoman')
   .controller('main', function () {
     
   });

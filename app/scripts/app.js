@@ -9,6 +9,10 @@
  * Main module of the application.
  */
 angular
-  .module('yeomanApp', ['ui.router']).config(function($statePrvider){
-  	
+  .module('yeoman', ['ui.router']).config(function($stateProvider){
+  	  $stateProvider.state("main",{
+	  		url:"main",
+	  		templateUrl:'../views/main.html',
+	  		controller:"main"
+	  	})
   });
