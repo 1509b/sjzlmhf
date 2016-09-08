@@ -5,19 +5,14 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-     <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/reset.css"/>
     <link rel="stylesheet" href="styles/main.css">
-    	<!-- endbuild -->
+
   </head>
   <body ng-app="yeoman">
-     <div class="head">
+  	<!--头部开始-->
+    <div class="head">
      	<div class="head_a">
      		<div class="head_aa"></div>
 	        <ul class="head_ul">
@@ -45,32 +40,96 @@
 	    </div>
 	    
 	    <div class="head_b">
+	    	<!--导航   1   开始-->
+	    	<div class="head_nav">
+	    		<img src="images/s_1_03.png"/>
+	    			<ul class="nav_ul">
+	    				<li>
+	    					<a ui-sref="main">
+	    						公司
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a ui-sref="main">
+	    						产品
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a ui-sref="main">
+	    						顾客
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a ui-sref="main">
+	    						招聘
+	    					</a>
+	    				</li>
+	    				<li class="nav_uli">
+	    					<a ui-sref="main">
+	    						留言板
+	    					</a>
+	    				</li>
+	    			</ul>
+	    	</div>
+	    	<!--导航1  结束-->
 	    	
-	    	
-	    	
-	    	
-	    </div>
-	    
+	    	<!--导航2  开始-->
+	    	<div class="nav">
+	    		<div class="y_a">
+	    			<div class="y_b">
+	    			</div>
+	    		</div>
+	    		<ul class="nav_a">
+	    			<li>
+	    				<a ui-sref="main">
+	    					CEO 问候语
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a ui-sref="main">
+	    					公司历史
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a ui-sref="main">
+	    					管理哲学
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a ui-sref="main">
+	    					组织架构
+	    				</a>
+	    			</li>
+	    			<li class="nav_uli">
+	    				<a ui-sref="main">
+	    					合作伙伴
+	    				</a>
+	    			</li>
+	    			<li class="nav_uli">
+	    				<a ui-sref="smap">
+	    					路线地图
+	    				</a>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<!--导航 2  结束-->	
+	    </div> 
     </div>
-    <div ui-view=""></div>
-
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
+    <!--头部结束-->
+    <!--banner 开始-->
+    <div ui-view="">
+    	
+    	
+    </div>
+    <!--banner  结束-->
+    
+    
+    
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-
-        <script src="scripts/controllers/main.js"></script>
-        <!-- endbuild -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
 </body>
 </html>

@@ -12,7 +12,11 @@ angular
   .module('yeoman', ['ui.router']).config(function($stateProvider){
   	  $stateProvider.state("main",{
 	  		url:"main",
-	  		templateUrl:'../views/main.html',
+	       templateUrl:'../views/main.html',
 	  		controller:"main"
+	  	}).state("smap",{
+	  		url:"smap",
+	       templateUrl:'../views/smap.html',
+	  		controller:"smap"
 	  	})
   });
