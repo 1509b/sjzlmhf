@@ -12,21 +12,46 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
+     <link rel="stylesheet" href="styles/reset.css"/>
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+    	<!-- endbuild -->
   </head>
   <body ng-app="yeoman">
-    <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <!-- Add your site or application content here -->
-    <div class="main">
-        <ul>
-            <li><a ui-sref="main">a</a></li>
-        </ul>
+     <div class="head">
+     	<div class="head_a">
+     		<div class="head_aa"></div>
+	        <ul class="head_ul">
+	            <li>
+	            	<a ui-sref="main">
+	            		登录
+	            	</a>
+	            </li>
+	            <li>
+	            	<a ui-sref="main">
+	            		加入我们
+	            	</a>
+	            </li>
+	            <li>
+	            	<a ui-sref="main">
+	            		管理员
+	            	</a>
+	            </li>
+	            <li>
+	            	<a ui-sref="main">
+	            		联系我们
+	            	</a>
+	            </li>
+	        </ul>
+	    </div>
+	    
+	    <div class="head_b">
+	    	
+	    	
+	    	
+	    	
+	    </div>
+	    
     </div>
-    <h1><a>写些什么呢？？</a></h1>
     <div ui-view=""></div>
 
 

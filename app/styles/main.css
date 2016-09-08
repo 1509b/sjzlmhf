@@ -1,1 +1,9 @@
-h1{color:red;}
+body{width:100%;background:#fff}
+/*头部开始*/
+.head{width:100%;}
+/*登录 管理 关于我们*/
+.head_a{width:100%;height:23px;}
+.head_aa{width:100%;height:5px;background:#7fb9c9;}
+.head_ul{width:284px;height:18px;background:#c4dade;border-bottom-left-radius:18px;border-bottom-right-radius:17px;float:right;margin-right:55px;}
+.head_ul li{float:left;margin-left:27px;}
+.head_ul li a{color:#1c6c7d;font-size:12px;}
