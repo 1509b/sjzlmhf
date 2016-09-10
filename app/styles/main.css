@@ -51,8 +51,15 @@
 .main_lbbr h1 span{color:#8ba5c1;font-size:22px;}
 .main_lbbr p{font-size:16px;}
 
-
-
+.main_right{width:898px;height:100%;float:left;}
+.main_rt{width:898px;height:800px;background:url(../images/s_6_03.png) no-repeat;margin-top:34px;}
+.dt{width:610px;height:660px;padding-top:100px;margin:0 auto}
+.main_rb{width:869px;height:156px;border-top:3px solid #e1e1e1;border-bottom:3px solid #e1e1e1;margin:0 auto;}
+.main_rbu{width:869px;height:144px;background:#f8f8f8;margin-top:3px;}
+.main_rbu li{height:48px;line-height:48px;padding-left:40px;font-size:16px;}
+.main_rbu li span{width:90px;height:48px;float:left;letter-spacing:2px;color:#225b92}
+.main_rbu li span img{margin-left:5px;}
+.main_rbu li b{color:#949393}
 /*底部内容开始*/
 #fonnter{width:1243px;height:50px;background:#f4f4f4;margin:0 auto;margin-top:69px;border:#e4e4e4;border-top-left-radius:10px;border-top-right-radius:10px;line-height:50px;}
 #fonnter p{text-align:center;font-size:14px;color:#a8b6b9;}

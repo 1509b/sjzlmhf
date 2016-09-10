@@ -22,5 +22,9 @@ angular
 	  		url:"index",
 	       templateUrl:'../views/index.html',
 	  		controller:"index"
+	  	}).state("sma",{
+	  		url:"sma",
+	       templateUrl:'../views/sma.html',
+	  		controller:"sma"
 	  	})
   });
