@@ -18,5 +18,9 @@ angular
 	  		url:"smap",
 	       templateUrl:'../views/smap.html',
 	  		controller:"smap"
+	  	}).state("index",{
+	  		url:"index",
+	       templateUrl:'../views/index.html',
+	  		controller:"index"
 	  	})
   });
