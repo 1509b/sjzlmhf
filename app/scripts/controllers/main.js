@@ -10,4 +10,4 @@
 angular.module('yeoman')
   .controller('main', function () {
     
-  });
+  })

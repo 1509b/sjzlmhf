@@ -1,0 +1,81 @@
+/*内容开始*/
+#main{width:1243px;margin:0 auto;margin-top:54px;}
+
+.main_left{width:271px;height:100%;margin-right:74px;float:left;}
+.main_right{width:898px;height:100%;float:left;}
+.f_top{
+	width: 100%;
+	height: 773px;
+	background: url(../images/f_1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.f_top .f_one{
+	font-size: 21px;
+	margin-top: 355px;
+	float: left;
+	color: #588CA3;
+}
+.f_top .f_two{
+	float: left;
+	font-size: 19px;
+	margin-top: 10px;
+	color: #646668;
+}
+.f_top .f_three{
+	float: left;
+	font-size: 16.5px;
+	margin-top: 30px;
+	color: #565656;
+}
+.f_bottom{
+	width: 100%;
+	height: 367px;
+	background: url(../images/f_2.png);
+	margin-top: 55px;
+}
+.f_first{
+	margin-left: 540px;
+	margin-top: 17px;
+	float: left;
+}
+.f_first img{
+	float: left;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.f_first .f_one{
+	font-size: 16.5px;
+	float: left;
+	color: #8EA4B1;
+}
+.f_secend{
+	margin-left: 43px;
+	margin-top: 150px;
+	float: left;
+}
+.f_secend img{
+	float: left;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.f_secend .f_one{
+	width: 300px;
+	font-size: 16.5px;
+	float: left;
+	color: #8EA4B1;
+}
+.f_thired{
+	margin-left: 315px;
+	margin-top: 215px;
+	float: left;
+}
+.f_thired img{
+	float: left;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.f_thired .f_one{
+	font-size: 16.5px;
+	float: left;
+	color: #8EA4B1;
+}

@@ -1,0 +1,305 @@
+.zq{
+	float:left;
+	width:898px;
+	height: auto;
+}
+.zq-top{
+	width:898px;
+	height:697px;
+	background: url(../images/zq1.jpg);
+	background-size: 100%;
+	margin:0 auto;
+}
+.zq-top h2{
+	float:left;
+	width:898px;
+	height:42px;
+	line-height: 42px;
+	font-size: 42px;
+	color:#0c7fa3;
+	margin-top:98px;
+}
+.zq-top u{
+	float:left;
+	width:898px;
+	height:22px;
+	line-height: 22px;
+	font-size: 22px;
+	color:#83c3d5;
+	margin-top:16px;
+	margin-bottom: 30px;
+}
+.zq-top p{
+	float:left;
+	width:898px;
+	height:26px;
+	line-height:26px;
+	font-size: 16px;
+}
+.zq-top div{
+	float:left;
+	width:460px;
+	height: auto;
+	margin-top:36px;
+}
+.zq-top div span{
+	float:left;
+	width:230px;
+	height:90px;
+}
+.zq-top div span h3{
+	float:left;
+	width: auto;
+	height:20px;
+	font-size: 18px;
+	color:#0c7fa3;
+}
+.zq-top div span a{
+	float:left;
+	margin-left:45px;
+	width:40px;
+	height:20px;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	border:1px solid #B3B3B3;
+	border-radius: 10%;
+	text-decoration: none;
+	color:#B3B3B3;
+	margin-bottom: 15px;
+}
+.zq-top div span font{
+	float:left;
+	width:230px;
+	height:18px;
+	font-size: 16px;
+	line-height: 18px;
+	color:#B3B3B3;
+}
+.span1{
+	margin-bottom: 35px;
+}
+.zq-bottom{
+	width:898px;
+	height:381px;
+	margin:0 auto;
+	margin-top:28px;
+}
+.zq-bottom-left{
+	float:left;
+	width:553px;
+	height:381px;
+}
+.zq-div1{
+	float:left;
+	width:553px;
+	height:195px;
+	background: #e7eff2;
+}
+.zq-span1{
+	float:left;
+	margin-left: 7px;
+	margin-top:10px;
+	width:537px;
+	height:137px;
+	background: #fff;
+	border-radius: 3%;
+}
+.zq-span1 h3{
+	float:left;
+	height:22px;
+	line-height: 22px;
+	font-size: 16px;
+	margin-left:10px;
+	color:#555;
+}
+.zq-span1 font{
+	margin-left: 5px;
+	float:left;
+	height:22px;
+	line-height: 22px;
+	font-size: 16px;
+	color:#666;
+}
+.zq-span1 s{
+	text-decoration: none;
+	float:right;
+	margin-right:5px;
+	height:22px;
+	line-height: 22px;
+	font-size: 16px;
+	color:#666;
+	cursor: pointer;
+}
+.zq-span1 ol{
+	float:left;
+	width:537px;
+	margin-top:3px;
+}
+.zq-span1 ol li{
+	margin-left: 30px;
+	width:537px;
+	height:25px;
+	line-height: 25px;
+	font-size: 16px;
+	float:left;
+	color:#666;
+}
+
+.zq-div2{
+	float:left;
+	width:553px;
+	height:48px;
+}
+.zq-div2 h3{
+	float:left;
+	height:48px;
+	line-height: 48px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.zq-div2 select{
+	float:left;
+	margin-top:8px;
+	width:386px;
+	height:32px;
+	margin-left: 5px;
+}
+.zq-div2 input{
+	float:left;
+	width:68px;
+	height:32px;
+	margin-left: 5px;
+	margin-top:8px;
+}
+.zq-div3{
+	width:541px;
+	height:150px;
+	border:6px solid #ecebec;
+	float: left;
+	margin-top:26px;
+}
+.zq-div3 h3{
+	float:left;
+	margin-left: 8px;
+	height:47px;
+	line-height: 47px;
+	font-size: 18px;
+	color: #666;
+}
+.zq-span2{
+	float:left;
+	margin-left: 7px;
+	width:527px;
+	height:92px;
+	background: #f9f9f9;
+}
+.zq-span2 span{
+	float:left;
+	width:527px;
+	height:33px;
+	margin-top:9px;
+	font-size: 18px;
+}
+.zq-span2 span p{
+	float:left;
+	height:33px;
+	line-height: 33px;
+	margin-left: 5px;
+}
+.zq-int1{
+	float:left;
+	width:348px;
+	height:28px;
+	margin-left: 10px;
+	margin-right: 14px;
+}
+.zq-int2{
+	float:left;
+	width:49px;
+	height:33px;
+}
+.zq-bottom-right{
+	float:left;
+	width:323px;
+	height:381px;
+	margin-left: 15px;
+}
+.zq-btop{
+	float:left;
+	width:323px;
+	height:195px;
+}
+.zq-btop h3{
+	float:left;
+	height:32px;
+	line-height: 32px;
+	color:#0b86ac;
+	font-size: 16px;
+}
+.zq-btop h3 color{
+	color:#8fa8c3;
+}
+.zq-btop ul{
+	float:left;
+	width:308px;
+	margin-left: 15px;
+}
+.zq-btop ul li{
+	float:left;
+	width:308px;
+	height:26px;
+	line-height: 26px;
+	font-size: 16px;
+}
+.zqbbottom{
+	float:left;
+	width:323px;
+	height:162px;
+	margin-top:26px;
+}
+.zqb-left{
+	float:left;
+	width:150px;
+	height:162px;
+}
+.zqb-left img{
+	float:left;
+	width:130px;
+	height:74px;
+	margin:10px;
+}
+.zqb-left input{
+	float:left;
+	width:150px;
+	height:33px;
+	margin-top:10px;
+}
+.zqb-right{
+	float:left;
+	width:173px;
+	height:162px;
+}
+.zqb-right h3{
+	float:left;
+	height:24px;
+	line-height: 24px;
+	color:#0b86ac;
+	font-size: 16px;
+	margin-left: 5px;
+}
+.zqb-right h3 color{
+	color:#8fa8c3;
+}
+.zqb-right ul{
+	float:left;
+	width:150px;
+	margin-left: 23px;
+}
+.zqb-right ul li{
+	float:left;
+	width:158px;
+	height:24px;
+	line-height: 24px;
+	font-size: 18px;
+}

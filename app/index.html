@@ -5,216 +5,186 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="styles/reset.css"/> 
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/main.css">
-    
+    <link rel="stylesheet" href="styles/f_index.css"/>
+    <link rel="stylesheet" href="styles/f_index1.css"/>
+    <link rel="stylesheet" href="styles/history.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/mxy.css" />
+    <link rel="stylesheet" href="styles/mxyTwo.css" />
+    <link rel="stylesheet" href="styles/j-center.css" /> 
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
   </head>
   <body ng-app="yeoman">
   	<!--头部开始-->
     <div class="head">
-     	<div class="head_a">
-     		<div class="head_aa"></div>
-	        <ul class="head_ul">
-	            <li>
-	            	<a ui-sref="main">
-	            		登录
-	            	</a>
-	            </li>
-	            <li>
-	            	<a ui-sref="main">
-	            		加入我们
-	            	</a>
-	            </li>
-	            <li>
-	            	<a ui-sref="main">
-	            		管理员
-	            	</a>
-	            </li>
-	            <li>
-	            	<a ui-sref="main">
-	            		联系我们
-	            	</a>
-	            </li>
-	        </ul>
-	    </div>
-	    
-	    <div class="head_b">
+    	<div class="head_a"></div>
 	    	<!--导航   1   开始-->
 	    	<div class="head_nav">
 	    		<img src="images/s_1_03.png"/>
-	    			<ul class="nav_ul">
+	    			<ul class="nav_ul" >
 	    				<li>
-	    					<a ui-sref="main">
-	    						公司
+	    					<a ui-sref="f_index">
+	    						主页
 	    					</a>
 	    				</li>
-	    				<li>
-	    					<a ui-sref="main">
-	    						产品
+	    				<li id="gk">
+	    					<a ui-sref="mxyTwo">
+	    						顾客之家
 	    					</a>
+	    					<ol id="gka">
+	    						<p ui-sref="mxyTwo">评价</p>
+	    						<p ui-sref="j-center">客户中心</p>
+	    					</ol>
 	    				</li>
 	    				<li>
-	    					<a ui-sref="main">
-	    						顾客
+	    					<a ui-sref="history">
+	    						公司历史
 	    					</a>
 	    				</li>
-	    				<li>
+	    				<li id="gg">
 	    					<a ui-sref="main">
-	    						招聘
+	    						公告栏
 	    					</a>
+	    					<ol id="gga">
+	    						<p ui-sref="mxy">新闻</p>
+	    						<p ui-sref="f_index1">招聘信息</p>
+	    					</ol>
 	    				</li>
 	    				<li class="nav_uli">
-	    					<a ui-sref="main">
-	    						留言板
+	    					<a ui-sref="sma">
+	    						联系我们
 	    					</a>
 	    				</li>
 	    			</ul>
 	    	</div>
 	    	<!--导航1  结束-->
-	    	
-	    	<!--导航2  开始-->
-	    	<div class="nav">
-	    		<div class="y_a">
-	    			<div class="y_b">
-	    			</div>
-	    		</div>
-	    		<ul class="nav_a">
-	    			<li>
-	    				<a ui-sref="index">
-	    					CEO 问候语
-	    				</a>
-	    			</li>
-	    			<li>
-	    				<a ui-sref="main">
-	    					公司历史
-	    				</a>
-	    			</li>
-	    			<li>
-	    				<a ui-sref="main">
-	    					管理哲学
-	    				</a>
-	    			</li>
-	    			<li>
-	    				<a ui-sref="main">
-	    					组织架构
-	    				</a>
-	    			</li>
-	    			<li class="nav_uli">
-	    				<a ui-sref="main">
-	    					合作伙伴
-	    				</a>
-	    			</li>
-	    			<li class="nav_uli">
-	    				<a ui-sref="smap">
-	    					路线地图
-	    				</a>
-	    			</li>
-	    		</ul>
-	    	</div>
-	    	<!--导航 2  结束-->	
-	    </div> 
-    </div>
+	   </div>
     <!--头部结束-->
-    <div ui-view="">
-    	<div class="h-main">
-	    <div class="h-banner">
-	        <div class="h-banner_nr">
-	            <h3>创新业务，以一步领先企业。</h3>
-	            <h2>
-	                <b>Best</b> Business <b>Partner</b>
-	            </h2>
-	            <h4>
-	                Asadal has been running one of the biggest domain and web hosting sites in Korea since May 1998.
-	                More than 3,000,000 1998.visited our website www.asadal.com, for domain registration, web hosting,
-	                web programming, and homepage building ser1998.
-	            </h4>
-	        </div>
-	    </div>
-	    <div class="h-center">
-	        <div class="h-center_nr">
-	            <div class="h-center_top">
-	                <div class="h_top_left">
-	                    <div class="h_topLeft_left">
-	                        <h2>Business <b>Story</b></h2>
-	                        <div class="left_z">
-	                            <span>商业故事</span>
-	                            <span>我公司网站进行的工作有关的内容版。工作区或以后的计划一起介绍给您。</span>
-	                        </div>
-	                    </div>
-	                    <div class="h_topLeft_right">
-	                        <img src="../images/h-nr-left.png">
-	                    </div>
-	                </div>
-	                <div class="h_top_center">
-	                    <h2>Notice</h2>
-	                    <ul>
-	                      <li>
-	                        <span>我公司网站上的新消息通知...</span>
-	                        <span>[2008-00-00]</span>
-	                        <div style="clear: both;"></div>
-	                      </li>
-	                      <li>
-	                        <span>成立10周年纪念活动的计划...</span>
-	                        <span>[2008-00-00]</span>
-	                        <div style="clear: both;"></div>
-	                      </li>
-	                      <li>
-	                        <span>新产品上市一个月...</span>
-	                        <span>[2008-00-00]</span>
-	                        <div style="clear: both;"></div>
-	                      </li>
-	                    </ul>
-	                </div>
-	                <div class="h_top_right">
-	                    <div class="h_topRight_z">
-	                        <img src="../images/h-nr-right.png">
-	                    </div>
-	                    <div class="h_topRight_y">
-	                        <h2>Online Recruit</h2>
-	                        <button id="btn">公司正为支持</button>
-	                        <ul>
-	                            <li>典型结果确认</li>
-	                            <li>典型程序指南</li>
-	                            <li>招聘咨询</li>
-	                            <li>招聘问题FAQ</li>
-	                        </ul>
-	                    </div>
-	                </div>
-	            </div>
-	            <div class="h-center_bottom">
-	                <div class="h-bottom_left">
-	                    <p>首尔市去。加纳东123 - 00 45万大厦楼买网络tel；01）234 -注意动作。- 9 / fax：02 - 345 -</p>
-	                    <p>版权所有©的asaweb。版权所有。电子邮件：asa@asadal.com</p>
-	                </div>
-	                <div class="h-bottom_right">
-	                    <ul>
-	                        <li>个人信息</li>
-	                        <li>政策条款</li>
-	                        <li>会员注册</li>
-	                        <li>找回来的路</li>
-	                    </ul>
-	
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-</div>
+    <div class="banner">
+    	<img src="images/banner_06.jpg"> 
     </div>
-    
-    
-    <!--banner 开始-->
-     
     <!--banner  结束-->
     
+    <!--内容部分开始-->
+		<div id="main">
+			<!-- 内容部分左侧开始 -->
+			<div class="main_left">
+				<!--上部  导航 开始-->
+				<div class="main_lt">
+					<ul class="main_ltu" id="main_ltu">
+						<li>
+							<a ui-sref="f_index">
+								主页
+								<div></div>
+							</a>
+						</li>
+						<li>
+							<a ui-sref="mxy">
+								新闻
+								<div></div>
+							</a>
+						</li>
+						<li>
+							<a ui-sref="f_index1">
+								招聘信息
+								<div></div>
+							</a>
+						</li>
+						
+						<li>
+							<a ui-sref="history">
+								公司历史
+								<div></div>
+							</a>
+						</li>
+						<li>
+							<a ui-sref="j-center">
+								客户中心
+								<div></div>
+							</a>
+						</li>
+						<li>
+							<a ui-sref="sma">
+								联系我们
+								<div></div>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!--上部导航   结束-->
+				<!--下部导航   开始-->
+				<div class="main_lb">
+					<div class="main_lbt">
+						<div class="main_lbtl">
+							<img src="images/s_4_09.jpg"/>
+						</div>
+						<div class="main_lbtr">
+							<h1>Business<span>Story</span></h1>
+							<p>我公司网站上进行工作的内容有错误。</p>
+						</div>
+					</div>
+					<div class="main_lbb">
+						<div class="main_lbbl">
+							<img src="images/s_5_09.jpg"/>
+						</div>
+						<div class="main_lbbr">
+							<h1>01. 234.<span>5678</span></h1>
+							<p>顾客闻讯事项有联系。</p>
+						</div>
+					</div>
+				</div>
+				<!--下部导航 结束-->
+			</div>
+			<!-- 内容部分左侧结束 -->
+			
+			<!-- 内容部分右侧开始 -->
+			<div ui-view='' class="main_right">
+				<div class="main_right">
+						<div class="f_top">
+							<p class="f_one">“先进的技术力量和技巧。21世纪ASA DIGIWEB带头。”</p>
+							<p class="f_two">我公司网站主页访问给顾客的感谢感谢。客户的意思，首先是最有竞争力的公司。</p>
+							<p class="f_three">我们企业的先进技术和专有技术，目前在不同行业的代表性公司。过去多年来的努力和尝试错误，通过我们的企业顾客一起成长。</p>
+							<p class="f_three">相关行业的竞争越来越激烈的情况下，顾客为先的技术基础上推出，00 00使用化，成功多通信行业的热点集中。以后我们企业乃至21世纪的全球性企业，增长我客户的支持看答案</p>
+							<p class="f_three">过去多年来的努力和尝试错误，通过我们的顾客和企业一起成长。相关行业的竞争越来越激烈的情况下，客你首先想到的技术基础上推出，00 00使用化成功，通信行业的集中。</p>
+							<p class="f_three">相关行业的竞争越来越激烈的情况下，顾客为先的技术基础上推出，00 00使用化，成功多通信行业的热点集中。 </p>
+							<p class="f_three">以后我们企业乃至21世纪的全球性企业，增长我客户回报大家的支持。</p>
+						</div>
+						<div class="f_bottom">
+							<div class="f_first">
+								<img src="images/f_3.png"/>
+								<p class="f_one">客户为中心的服务企业</p>
+							</div>
+							<div class="f_secend">
+								<img src="images/f_3.png"/>
+								<p class="f_one">创新创新企业</p>
+							</div>
+							<div class="f_thired">
+								<img src="images/f_3.png"/>
+								<p class="f_one">世界中的互联网企业</p>
+							</div>
+						</div>
+					</div>
+<!-- 内容部分右侧结束 --></div>
+			</div>
+			<!-- 内容部分右侧结束 -->
+		</div>
+		<!--内容部分结束-->
     
-    
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!--底部部分开始-->
+		<div id="fonnter">
+			<p>北京市 大兴区 西红门 鸿坤大厦8层  COPYRIGHT&copy; SJZLMHF BY ASAWEB. ALL RIGHT RESRVED . E-MALL:1002@QQ.COM</p>	
+		</div>
+		<!--底部部分结束-->
+  </body>
+  	<script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
-</body>
+    <script src="scripts/index.js"></script>
 </html>
