@@ -8,6 +8,7 @@
  *
  * Main module of the application.
  */
+<<<<<<< HEAD
 angular.module('yeoman', ['ui.router']).config(function($stateProvider){
   	  $stateProvider.state("sma",{
 	  		url:"sma",
@@ -37,5 +38,21 @@ angular.module('yeoman', ['ui.router']).config(function($stateProvider){
 	  		url:"mxy",
 	       templateUrl:'views/mxy.html',
 	  		controller:"mxy"
+=======
+angular
+  .module('yeoman', ['ui.router']).config(function($stateProvider){
+  	  $stateProvider.state("main",{
+	  		url:"main",
+	       templateUrl:'../views/main.html',
+	  		controller:"main"
+	  	}).state("smap",{
+	  		url:"smap",
+	       templateUrl:'../views/smap.html',
+	  		controller:"smap"
+	  	}).state("index",{
+	  		url:"index",
+	       templateUrl:'../views/index.html',
+	  		controller:"index"
+>>>>>>> origin/master
 	  	})
   });
