@@ -1,4 +1,4 @@
-<!-- 内容部分右侧开始 -->
+内容部分右侧开始 -->
 <div class="history_right">
     <div class="l_fdq">
     	<span class="l_num3">2000</span>
@@ -48,15 +48,15 @@
         	</div>
         </div>
     </div>
-    <div class="l_foot">
-        <div class="l_f1">
+    <div class="l_foot" ng-controller="history">
+        <div class="l_f1" ng-repeat="x in data">
         	<span class="l_color"></span>
-        	<span class="l_n">2008</span>
-        	<span class="l_t1">I 04专利注册参数文件的网站编辑装置及方法</span>
-        	<span class="l_t2">Ⅱ 08（周）公司网站成立10周年纪念</span>
-        	<span class="l_t3">Ⅲ 12中小企业厅厅长奖</span>
+        	<span class="l_n">{{x.date}}</span>
+        	<span class="l_t1">{{x.title}}</span>
+        	<!-- <span class="l_t2">Ⅱ 08（周）公司网站成立10周年纪念</span>
+        	<span class="l_t3">Ⅲ 12中小企业厅厅长奖</span> -->
         </div>
-        <div class="l_f2">
+        <!-- <div class="l_f2">
         	<span class="l_color2"></span>
         	<span class="l_n2">2007</span>
         	<span class="l_t1">I 04专利注册参数文件的网站编辑装置及方法</span>
@@ -76,7 +76,7 @@
         	<span class="l_t1">I 04专利注册参数文件的网站编辑装置及方法</span>
         	<span class="l_t2">Ⅱ 08（周）公司网站成立10周年纪念</span>
         	<span class="l_t3">Ⅲ 12中小企业厅厅长奖</span>
-        </div>
+        </div> -->
     </div>
 </div>
-		<!-- 内容部分右侧结束 -->
+		<!-- 内容部分右侧结束
