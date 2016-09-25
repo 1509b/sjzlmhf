@@ -5,7 +5,7 @@
 	width:898px;
 	height:100%;
 	background: url(../images/background.jpg) no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
 }
 
 .M_right input{
@@ -58,6 +58,15 @@
 	width:60px;
 	background: #fff;
 }
+
+.M_right_two table{width:100%;}
+.M_right_two table th{text-align: center;
+	/*border-right:3px solid #009EBB;
+height: 33px;*/}
+.M_right_two table tr{}
+.M_right_two table td{text-align: center;font-size: 14px;height:45px;line-height: 45px;border-bottom: 2px #cccccc dotted;}
+
+
 
 .M_right_two{
 	width:870px;

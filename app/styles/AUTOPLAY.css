@@ -1,0 +1,40 @@
+.AUTOPLAY{
+	width: 900px;
+	height:650px;
+}
+.content-img{
+	width: 900px;
+	height: 300px;
+	/*border: 1px solid #ccc;*/
+	border-radius: 5px;
+}
+
+.content-img table {
+	width: 900px;
+	height: 50px;
+	border: 1px solid #ccc;
+}
+.content-img table tr{
+	width: 300px;
+	height: 50px;
+	text-align: center;
+}
+.content-img table tr td{
+	line-height: 50px;
+}
+.bianjiqi{
+	margin-top: 20px;
+}
+nav {
+position: relative;
+width:100%;
+height: 50px;
+}
+.pagination {
+right: 0px;
+position: absolute;
+top: 0px;
+}
+nav li {
+cursor: pointer;
+}

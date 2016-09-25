@@ -28,7 +28,7 @@ angular.module('yeoman', ['ui.router']).config(function($stateProvider){
 	  	}).state("mxyTwo",{
 	  		url:"mxyTwo",
 	       templateUrl:'views/mxyTwo.html',
-	  		controller:"mxyTwo"
+	  		controller:"os"
 	  	}).state("history",{
 	  		url:"history",
 	       templateUrl:'views/history.html',

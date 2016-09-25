@@ -1,7 +1,7 @@
-<div class="main_right">
+<div class="main_right" ng-controller="os">
 	<div class="M_right">
 		<div class="M_right_one">
-			<p class="M_p">
+			<!--<p class="M_p">
 				<span>我公司网站建议事项或问讯事项的部分可以通过这里告诉我。我会尽快修改。</span>
 				<span>
 					搜索分类
@@ -11,55 +11,57 @@
 					<img src="../images/Mimg-1.jpg" class="M_imga"/>
 					<input type="button" name="" id=""  class="M_in_one" value="搜索" />
 				</span>
-			</p>
+			</p>-->
 		</div>
+		<<div class="M_right_two">
+				<span class="M_span">共发布100条消息</span>
+				<ul class="M_tr_one">
+					<li class="M_li_one">编号</li>
+					<span></span>
+					<li class="M_li_two">内容</li>
+					<span></span>
+					<li class="M_li_three">名字</li>
+					<span></span>
+					<li class="M_last_li">时间</li>
+				</ul>
+				<div class="M_table">
+					<table border="" cellspacing="" cellpadding="">
+					<tr ng-repeat='i in data'>
+						<td class="M_li_one">{{$index+1}}</td>
+						<td class="M_li_two">{{i.content}}</td>
+						<td class="M_li_three">{{i.name}}</td>
+						<td>{{i.date}}</td>
+					</tr>
+				</table>
+			</div>
 		<div class="M_right_two">
-			<p>
-				<span class="M_span_one">
-					<a href="javascript:;">标题</a>
-				</span>
-				<span class="M_span_two">
-					<input type="text" name="" id="" value=""   class="M_in_two" />
-				</span>
-			</p>
 			<p>
 				<span  class="M_span_one">
 					<a href="javascript:;">名字</a>
 				</span>
 				<span class="M_span_two">
-					<input type="text" name="" id="" value=""  class="M_in_two"/>
-				</span>
-			</p>
-			<p>
-				<span class="M_span_one">
-					<a href="javascript:;">联系方式</a>
-				</span>
-				<span class="M_span_two M_span_to">
-					<input type="text" name="" id="" value="" class="M_in_three"/> ——
-					<input type="text" name="" id="" value="" class="M_in_three"/> ——
-					<input type="text" name="" id="" value="" class="M_in_three"/>
-				</span>
-			</p>
-			<p>
-				<span class="M_span_one">
-					<a href="javascript:;">电子邮件</a>
-				</span>
-				<span class="M_span_two">
-					<input type="text" name="" id="" value=""  class="M_in_two"/>
+					<input type="text" name="" id="" value="" ng-model="ud.name"  class="M_in_two"/>
 				</span>
 			</p>
 			<p class="M_p_last">
 				<span class="M_sp_one">
-					<a href="javascript:;">地址</a>
+					<a href="javascript:;">内容</a>
 				</span>
 				<span class="M_sp_two">
-					<span class="M_in_four" contenteditable='true'>			
-					</span>
+					<textarea class="M_in_four"  ng-model="ud.content">			
+					</textarea>
+				</span>
+			</p>
+			<p>
+				<span class="M_span_one">
+					<a href="javascript:;">时间</a>
+				</span>
+				<span class="M_span_two">
+					<input type="text" name="" id="sj" value="" ng-model="ud.date"  class="M_in_two"/>
 				</span>
 			</p>
 			<p class="M_btn">
-				<input type="button" name="" id="" value="CONFIRM" />
-				<input type="button" name="" id="" value="CANCEL" />					
+				<input type="button" name="" id="" ng-click="submit()" value="提交" />				
 			</p>
 		</div>
 	</div>
