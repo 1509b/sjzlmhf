@@ -8,7 +8,7 @@
 			</span>
 			<h4>A/S SERVICE CENTER</h4>
 			<b>1234-5555 ~ 8</b>
-			<p class="jsearch">搜索用户中心</p>
+			<!--<p class="jsearch">搜索用户中心</p>
 			<span class="jsearch-k">
 				<select>
 					<option>本地搜索----</option>
@@ -19,7 +19,7 @@
 				</select>
 						
 				<button>搜索</button>
-			</span>
+			</span>-->
 			<span class="jman">
 				<img src="../images/j-_06.png" />
 				<p>中心访问，<br />在地图上搜索，的服务中心访问。<br />咨询员的连接，请参考下面的内容。</p>
@@ -72,14 +72,16 @@
 	<div class="jcontent-zx">
 		<p>我公司网站问讯事项有顾客们搜索类别选中内容的搜索问题的希望。</p>
 			<span class="j-sou">
-				查询：
+				<!--查询：
 				<select>
 					<option>查询---------------------------</option>
 				</select>
 						
 				<select>
 					<option>输入查询--------------------------------</option>
-				</select>
+				</select>-->
+				搜索分类:
+				<input type="text" name="" id="" placeholder="输入分类-----------------" ng-model="M_aaa"/>
 						
 				<button>搜索</button>
 			</span>
@@ -108,7 +110,7 @@
 			</ul>
 			<div class="M_table" ng-controller="j-center">
 				<table border="" cellspacing="" cellpadding="">
-					<tr ng-repeat='i in data'>
+					<tr ng-repeat='i in data | filter:M_aaa ' >
 						<td>{{$index+1}}</td>
 						<td>{{i.content}}</td>
 						<td>{{i.name}}</td>
