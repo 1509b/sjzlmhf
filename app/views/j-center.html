@@ -94,74 +94,27 @@
 			<li>Computer</li>
 		</ul>
 		<!--content下部分-->
-		<div class="jcontentx">
+		<div class="jcontentx" >
 			<p>共50条信息</p>
+			<span class="M_span">共发布100条消息</span>
 			<ul class="jcontent-xs">
-				<li>编号</li><span></span>
-				<li>搜索分类</li><span></span>
-				<li>内容</li><span></span>
-				<li>评价</li>
+				<li>编号</li>
+				<span></span>
+				<li>内容</li>
+				<span></span>
+				<li>姓名</li>
+				<span></span>
+				<li>时间</li>
 			</ul>
-				
-			<ul class="jcontent-xs1">
-				<li>10</li>
-				<li>Pmp G2-100</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_29.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>9</li>
-				<li>Notebook</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j-_21.png"/></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>8</li>
-				<li>Mp3 S2-100 </li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_29.png" </li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>7</li>
-				<li>Television  </li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_31.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>6</li>
-				<li>Mobile Phone</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_29.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>5</li>
-				<li> Computer</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j-_21.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>4</li>
-				<li>Pmp G2-100</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_29.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>3</li>
-				<li>Pmp G2-100</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_29.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>2</li>
-				<li>Pmp G2-100</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_31.png" /></li>
-			</ul>
-			<ul class="jcontent-xs1">
-				<li>1</li>
-				<li>Pmp G2-100</li>
-				<li>这里是服务中心的布告牌。产品分类。 </li>
-				<li><img src="../images/j_29.png" /></li>
-			</ul  >
+			<div class="M_table" ng-controller="j-center">
+				<table border="" cellspacing="" cellpadding="">
+					<tr ng-repeat='i in data'>
+						<td>{{$index+1}}</td>
+						<td>{{i.content}}</td>
+						<td>{{i.name}}</td>
+						<td>{{i.date}}</td>
+					</tr>
+				</table>
+			</div>	
 		</div>
 	</div>

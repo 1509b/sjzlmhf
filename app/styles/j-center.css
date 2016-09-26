@@ -40,8 +40,16 @@
 .jcontentx{width:855px;height:460px;margin-top:15px;}
 .jcontentx .jcontent-xs{width:855px;height:40px;background:#f9f9f9;border-top:2px solid #009ebb;}
 .jcontentx .jcontent-xs li{float:left;width:100px;height:40px;list-style: none;text-align:center;line-height:25px;}
-.jcontentx .jcontent-xs li:nth-child(3){width:170px;}
-.jcontentx .jcontent-xs li:nth-child(5){width:450px;}
+.jcontentx .jcontent-xs li:nth-child(3){width:450px;}
+.jcontentx .jcontent-xs li:nth-child(5){width:170px;}
+
+
+.M_table table tr{height:40px;line-height:40px;text-align:center;border-bottom:1px dashed #CCC;}
+.jcontentx .M_table table tr td{float:left;width:100px;height:40px;list-style: none;text-align:center;line-height:40px;}
+.M_table table tr td:nth-child(2){width:450px;
+}
+.M_table table tr td:nth-child(3){width:170px;}
+.M_table table tr td:nth-child(4){line-height:18px;}
 .jcontentx .jcontent-xs span{width:2px;height:38px;background:#009EBB;display:block;float:left;}
 
 .jcontentx .jcontent-xs1{width:855px;height:35px;border-bottom:2px dotted #222222;}

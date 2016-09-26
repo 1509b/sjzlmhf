@@ -35,13 +35,5 @@ angular.module('yeoman').controller("os",function($scope,$http){
             alert("请求失败！")
         })
     }
-	 $http({
-        url:"http://123.56.227.177:2504/sj-commit",
-        method:"get",
-    }).success(function(e){
-    	console.log(e);
-		$scope.data = e;
-    })
-
 })
 
